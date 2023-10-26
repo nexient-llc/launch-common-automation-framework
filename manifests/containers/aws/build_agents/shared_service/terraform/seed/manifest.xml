@@ -3,9 +3,9 @@
     This manifest is used for all TF modules
 -->
 <manifest>
-  <include name="manifests/git-connection/manifest.xml" revision="refs/tags/0.2.0"/>
+  <include name="manifests/git-connection/manifest.xml"/>
 
-  <include name="manifests/semverbot/seed/manifest.xml" revision="refs/tags/0.2.0"/>
+  <include name="manifests/semverbot/seed/manifest.xml"/>
 
-  <include name="manifests/containers/aws/build_agents/shared_service/terraform/manifest/manifest.xml" revision="refs/tags/0.2.0"/>
+  <include name="manifests/containers/aws/build_agents/shared_service/terraform/manifest/manifest.xml"/>
 </manifest>

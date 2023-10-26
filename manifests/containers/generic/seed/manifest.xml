@@ -3,7 +3,7 @@
     This manifest is used for all TF modules
 -->
 <manifest>
-  <include name="manifests/git-connection/manifest.xml" revision="refs/tags/0.1.0"/>
-  <include name="manifests/semverbot/seed/manifest.xml" revision="refs/tags/0.1.0"/>
-  <include name="manifests/containers/generic/manifest/manifest.xml" revision="refs/tags/0.1.0" />
+  <include name="manifests/git-connection/manifest.xml"/>
+  <include name="manifests/semverbot/seed/manifest.xml"/>
+  <include name="manifests/containers/generic/manifest/manifest.xml"/>
 </manifest>
