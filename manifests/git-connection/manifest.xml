@@ -3,6 +3,6 @@
     This sets up the git connection and baselines
 -->
 <manifest>
-  <remote name="launch-dso-platform" fetch="${GITBASE}" revision="${GITREV}"/>
+  <remote name="launch-dso-platform" revision="refs/tags/0.1.0"/>
   <!-- <default remote="launch-dso-platform" revision="update" /> -->
 </manifest>
