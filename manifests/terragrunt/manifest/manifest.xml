@@ -5,7 +5,7 @@
 <manifest>
   <project name="caf-component-aws-terragrunt" path="components/terragrunt" remote="launch-dso-platform" revision="refs/tags/0.1.0">
   </project>
-   <project name="caf-components-tf-module" path="components/module" remote="launch-dso-platform">
+   <project name="caf-components-tf-module" path="components/module" remote="launch-dso-platform" revision="refs/tags/0.1.0">
     <linkfile src="linkfiles/.pre-commit-config.yaml" dest=".pre-commit-config.yaml" />
   </project>
 </manifest>
