@@ -3,8 +3,8 @@
     This manifest defines the behavior of generic containerized components
 -->
 <manifest>
-  <project name="caf-components-container" path="components/container" remote="launch-dso-platform">
+  <project name="caf-components-container" path="components/container" remote="launch-dso-platform" revision="refs/tags/v0.1.0" so_override_attribute_revision='${CONTAINER_VER}'>
   </project>
-  <project name="git-webhook-lambda" path="components/git-webhook-lambda" remote="launch-dso-platform">
+  <project name="git-webhook-lambda" path="components/git-webhook-lambda" remote="launch-dso-platform" revision="refs/tags/v0.1.0" so_override_attribute_revision='${WEBHOOK_VER}'>
   </project>
 </manifest>

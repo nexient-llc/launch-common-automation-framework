@@ -13,7 +13,7 @@
 # this will always point here
 REPO_MANIFESTS_URL ?= https://github.com/nexient-llc/common-automation-framework.git
 # this eventually will point to a git tag
-REPO_BRANCH ?= update
+REPO_MANIFESTS_VER ?= update
 # this should point to a seed manifest
 REPO_MANIFEST ?= manifests/terraform_modules/seed/manifest.xml
 
@@ -24,8 +24,7 @@ export REPO_REV REPO_URL
 
 # Example variable to substituted after init, but before sync in repo manifests.
 GITBASE ?= https://github.com/nexient-llc/
-GITREV ?= main
-export GITBASE GITREV
+export GITBASE
 
 # Include project level defaults (env vars, etc.)
 -include Makefile.includes

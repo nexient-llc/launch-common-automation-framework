@@ -3,11 +3,11 @@
     This manifest defines the behavior of containerized Python components
 -->
 <manifest>
-  <project name="caf-components-container" path="components/container" remote="launch-dso-platform">
+  <project name="caf-components-container" path="components/container" remote="launch-dso-platform" revision="refs/tags/v0.1.0" dso_override_attribute_revision='${CONTAINER_VER}'>
   </project>
-  <project name="caf-components-python" path="components/python" remote="launch-dso-platform">
+  <project name="caf-components-python" path="components/python" remote="launch-dso-platform" revision="refs/tags/v0.1.0" dso_override_attribute_revision='${PYTHON_VER}'>
     <linkfile src="linkfiles/.pre-commit-config.yaml" dest=".pre-commit-config.yaml" />
   </project>
-  <project name="git-webhook-lambda" path="components/git-webhook-lambda" remote="launch-dso-platform">
+  <project name="git-webhook-lambda" path="components/git-webhook-lambda" remote="launch-dso-platform" revision="refs/tags/v0.1.0" dso_override_attribute_revision='${WEBHOOK_VER}'>
   </project>
 </manifest>
