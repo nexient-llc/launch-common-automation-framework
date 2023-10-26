@@ -3,9 +3,9 @@
     This manifest defines the behavior of container components
 -->
 <manifest>
-  <project name="caf-components-container" path="components/container" remote="launch-dso-platform" revision="refs/tags/v0.1.0" dso_override_attribute_revision='${CONTAINER_VER}'>
+  <project name="caf-components-container" path="components/container" remote="launch-dso-platform" revision="refs/tags/0.1.0" dso_override_attribute_revision='${CONTAINER_VER}'>
   </project>
-  <project name="caf-component-aws-pipelines" path="components/module" remote="launch-dso-platform" revision="refs/tags/v0.1.0" dso_override_attribute_revision='${PIPELINES_VER}'>
+  <project name="caf-component-aws-pipelines" path="components/module" remote="launch-dso-platform" revision="refs/tags/0.1.0" dso_override_attribute_revision='${PIPELINES_VER}'>
     <!-- Common -->
     <linkfile src="linkfiles/pipeline_providers/aws/aws_pipeline-to-aws_cloud/codebuild/common/scripts/spec_scripts/actions/codebuild/simulated-merge.sh" dest="components/build-actions/simulated-merge" />
     <linkfile src="linkfiles/pipeline_providers/aws/aws_pipeline-to-aws_cloud/codebuild/common/scripts/spec_scripts/actions/codebuild/terragrunt-deploy.sh" dest="components/build-actions/terragrunt-deploy" />
