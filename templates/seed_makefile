@@ -74,7 +74,7 @@ endif
 configure: configure-git-hooks
 	repo --color=never init --no-repo-verify \
 		-u "$(REPO_MANIFESTS_URL)" \
-		-b "$(REPO_BRANCH)" \
+		-b "$(REPO_MANIFESTS_VER)" \
 		-m "$(REPO_MANIFEST)"
 	repo envsubst
 	repo sync
