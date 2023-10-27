@@ -8,5 +8,4 @@
   </project>
   <project name="git-webhook-lambda" path="components/git-webhook-lambda" remote="launch-dso-platform" revision="refs/tags/0.1.0" dso_override_attribute_revision='${WEBHOOK_VER}'>
   </project>
-  </project>
 </manifest>
