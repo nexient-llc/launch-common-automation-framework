@@ -18,9 +18,8 @@
     <linkfile src="linkfiles/pipeline_providers/aws/aws_pipeline-to-aws_cloud/codebuild/docker/scripts/spec_scripts/actions/codebuild/build-container.sh" dest="components/build-actions/build-container" />
     <linkfile src="linkfiles/pipeline_providers/aws/aws_pipeline-to-aws_cloud/codebuild/docker/scripts/spec_scripts/actions/codebuild/conftest-docker.sh" dest="components/build-actions/conftest-docker" />
     <!-- IaC -->
-    <linkfile src="linkfiles/pipeline_providers/aws/aws_pipeline-to-aws_cloud/codebuild/iac/terraform-framework/scripts/spec_scripts/actions/codebuild/conftest-terraform-module.sh" dest="components/build-actions/conftest-terraform-module" />
     <linkfile src="linkfiles/pipeline_providers/aws/aws_pipeline-to-aws_cloud/codebuild/iac/terraform-framework/scripts/spec_scripts/actions/codebuild/lint-terraform-module.sh" dest="components/build-actions/lint-terraform-module" />
-    <linkfile src="linkfiles/pipeline_providers/aws/aws_pipeline-to-aws_cloud/codebuild/iac/terraform-framework/scripts/spec_scripts/actions/codebuild/make-check-module.sh" dest="components/build-actions/make-check-module" />
+    <linkfile src="linkfiles/pipeline_providers/aws/aws_pipeline-to-aws_cloud/codebuild/iac/terraform-framework/scripts/spec_scripts/actions/codebuild/make-tfmodule-pre-deploy-test.sh" dest="components/build-actions/make-tfmodule-pre-deploy-test" />
     <!-- Java -->
     <linkfile src="linkfiles/pipeline_providers/aws/aws_pipeline-to-aws_cloud/codebuild/java/mvn/scripts/spec_scripts/actions/codebuild/maven-build.sh" dest="components/build-actions/maven-build" />
     <linkfile src="linkfiles/pipeline_providers/aws/aws_pipeline-to-aws_cloud/codebuild/java/mvn/scripts/spec_scripts/actions/codebuild/maven-test.sh" dest="components/build-actions/maven-test" />
