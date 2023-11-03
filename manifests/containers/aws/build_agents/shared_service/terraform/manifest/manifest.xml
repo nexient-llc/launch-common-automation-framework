@@ -5,7 +5,7 @@
 <manifest>
   <project name="caf-components-container" path="components/container" remote="launch-dso-platform">
   </project>
-  <project name="caf-component-aws-pipelines" path="components/module" remote="launch-dso-platform">
+  <project name="caf-component-aws-pipelines" path="components/module" remote="launch-dso-platform" revision="chore/cleanUpCode">
     <!-- Common -->
     <linkfile src="linkfiles/pipeline_providers/aws/aws_pipeline-to-aws_cloud/codebuild/common/scripts/spec_scripts/actions/codebuild/simulated-merge.sh" dest="components/build-actions/simulated-merge" />
     <linkfile src="linkfiles/pipeline_providers/aws/aws_pipeline-to-aws_cloud/codebuild/common/scripts/spec_scripts/actions/codebuild/terragrunt-deploy.sh" dest="components/build-actions/terragrunt-deploy" />
