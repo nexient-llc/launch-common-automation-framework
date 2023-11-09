@@ -11,11 +11,11 @@
 # limitations under the License.
 
 # this will always point here
-REPO_MANIFESTS_URL ?= https://github.com/nexient-llc/common-automation-framework.git
-# this eventually will point to a git tag
-REPO_BRANCH ?= update
+CAF_MANIFESTS_URL ?= https://github.com/nexient-llc/common-automation-framework.git
+# this  will point to a git tag
+CAF_MANIFESTS_REVISION ?= refs/tags/0.1.0
 # this should point to a seed manifest
-REPO_MANIFEST ?= manifests/terraform_modules/seed/manifest.xml
+CAF_MANIFESTS_PATH ?= manifests/terraform_modules/seed/manifest.xml
 
 # Settings to pull in Launch version of (google) repo utility that supports environment substitution:
 REPO_URL ?= https://github.com/nexient-llc/git-repo.git
@@ -24,8 +24,7 @@ export REPO_REV REPO_URL
 
 # Example variable to substituted after init, but before sync in repo manifests.
 GITBASE ?= https://github.com/nexient-llc/
-GITREV ?= main
-export GITBASE GITREV
+export GITBASE
 
 # Include project level defaults (env vars, etc.)
 -include Makefile.includes
@@ -40,6 +39,8 @@ JOB_EMAIL ?= job@job.job
 
 COMPONENTS_DIR = components
 -include $(COMPONENTS_DIR)/Makefile
+
+MODULE_DIR ?= ${COMPONENTS_DIR}/module
 
 .PHONY: configure-git-hooks
 configure-git-hooks:
@@ -74,9 +75,9 @@ endif
 .PHONY: configure
 configure: configure-git-hooks
 	repo --color=never init --no-repo-verify \
-		-u "$(REPO_MANIFESTS_URL)" \
-		-b "$(REPO_BRANCH)" \
-		-m "$(REPO_MANIFEST)"
+		-u "$(CAF_MANIFESTS_URL)" \
+		-b "$(CAF_MANIFESTS_REVISION)" \
+		-m "$(CAF_MANIFESTS_PATH)"
 	repo envsubst
 	repo sync
 

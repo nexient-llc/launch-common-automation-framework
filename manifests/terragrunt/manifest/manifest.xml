@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This manifest defines the behavior of aws terragrunt components
+-->
+<manifest>
+  <project name="caf-component-aws-terragrunt" path="components/terragrunt" remote="launch-dso-platform" revision="refs/tags/0.1.0" dso_override_attribute_revision='${TERRAGRUNT_VER}'>
+  </project>
+   <project name="caf-components-tf-module" path="components/module" remote="launch-dso-platform" revision="refs/tags/0.1.0" dso_override_attribute_revision='${CAF_COMPONENTS_VER}'>
+    <linkfile src="linkfiles/.pre-commit-config.yaml" dest=".pre-commit-config.yaml" />
+  </project>
+</manifest>
