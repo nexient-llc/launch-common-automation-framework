@@ -12,4 +12,6 @@
     <linkfile src="linkfiles/.pre-commit-config.yaml" dest=".pre-commit-config.yaml" />
     <linkfile src="linkfiles/.golangci.yaml" dest=".golangci.yaml" />
   </project>
+  <project name="caf-component-policy" path="components/policy" remote="launch-dso-platform" revision="refs/tags/0.1.0" dso_override_attribute_revision='${CAF_POLICY_VER}'>
+  </project>
 </manifest>
