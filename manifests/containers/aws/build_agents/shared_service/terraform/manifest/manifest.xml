@@ -11,7 +11,7 @@
     <linkfile src="linkfiles/pipeline_providers/aws/aws_pipeline-to-aws_cloud/codebuild/common/scripts/spec_scripts/actions/codebuild/terragrunt-deploy.sh" dest="components/build-actions/terragrunt-deploy" />
     <linkfile src="linkfiles/pipeline_providers/aws/aws_pipeline-to-aws_cloud/codebuild/common/scripts/spec_scripts/actions/codebuild/terragrunt-plan.sh" dest="components/build-actions/terragrunt-plan" />
     <linkfile src="linkfiles/pipeline_providers/aws/aws_pipeline-to-aws_cloud/codebuild/common/scripts/spec_scripts/actions/codebuild/tf-post-deploy-functional-test.sh" dest="components/build-actions/tf-post-deploy-functional-test" />
-    <linkfile src="linkfiles/pipeline_providers/aws/aws_pipeline-to-aws_cloud/codebuild/common/scripts/spec_scripts/actions/codebuild/tf-pre-deploy-functional-test.sh" dest="components/build-actions/tf-pre-deploy-functional-test" />
+    <linkfile src="linkfiles/pipeline_providers/aws/aws_pipeline-to-aws_cloud/codebuild/common/scripts/spec_scripts/actions/codebuild/tg-pre-deploy-functional-test.sh" dest="components/build-actions/tg-pre-deploy-functional-test" />
     <linkfile src="linkfiles/pipeline_providers/aws/aws_pipeline-to-aws_cloud/codebuild/common/scripts/spec_scripts/actions/codebuild/trigger-pipeline.sh" dest="components/build-actions/trigger-pipeline" />
     <linkfile src="linkfiles/pipeline_providers/aws/aws_pipeline-to-aws_cloud/codebuild/common/scripts/spec_scripts/actions/codebuild/codebuild-status.sh" dest="components/build-actions/codebuild-status" />
     <!-- Docker -->
