@@ -16,6 +16,7 @@
     <linkfile src="linkfiles/pipeline_providers/aws/aws_pipeline-to-aws_cloud/codebuild/common/scripts/spec_scripts/actions/codebuild/trigger-pipeline.sh" dest="components/build-actions/trigger-pipeline" />
     <!-- Docker -->
     <linkfile src="linkfiles/pipeline_providers/aws/aws_pipeline-to-aws_cloud/codebuild/docker/scripts/spec_scripts/actions/codebuild/build-container.sh" dest="components/build-actions/build-container" />
+    <linkfile src="linkfiles/pipeline_providers/aws/aws_pipeline-to-aws_cloud/codebuild/docker/scripts/spec_scripts/actions/codebuild/push-container.sh" dest="components/build-actions/push-container" />
     <linkfile src="linkfiles/pipeline_providers/aws/aws_pipeline-to-aws_cloud/codebuild/docker/scripts/spec_scripts/actions/codebuild/conftest-docker.sh" dest="components/build-actions/conftest-docker" />
     <!-- IaC -->
     <linkfile src="linkfiles/pipeline_providers/aws/aws_pipeline-to-aws_cloud/codebuild/iac/terraform-framework/scripts/spec_scripts/actions/codebuild/launch-apply-semver.sh" dest="components/build-actions/launch-apply-semver" />
