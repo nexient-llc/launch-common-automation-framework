@@ -4,7 +4,7 @@
     all TF modules
 -->
 <manifest>
-  <project name="caf-components-tf-module" path="components/module" remote="launch-dso-platform" revision="refs/tags/0.1.0" dso_override_attribute_revision='${CAF_COMPONENTS_VER}'>
+  <project name="caf-components-tf-module" path="components/module" remote="launch-dso-platform" revision="refs/tags/0.2.0" dso_override_attribute_revision='${CAF_COMPONENTS_VER}'>
     <linkfile src="linkfiles/Makefile" dest="components/Makefile" />
 
     <!-- <linkfile src="artifacts/terraform_modules/Makefile" dest="components/terraform_modules/Makefile" /> -->
