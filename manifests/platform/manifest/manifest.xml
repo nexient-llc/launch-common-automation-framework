@@ -6,6 +6,5 @@
 <manifest>
   <project name="lcaf-component-platform" path="components/platform" remote="launch-dso-platform" revision="refs/tags/0.1.0" dso_override_attribute_revision='${CAF_COMPONENTS_VER}'>
     <linkfile src="linkfiles/Makefile" dest="components/Makefile" />
-    <linkfile src="linkfiles/.semverbot.toml" dest=".semverbot.toml" />
   </project>
 </manifest>

@@ -5,7 +5,7 @@
 <manifest>
   <include name="manifests/git-connection/manifest.xml" />
   
-  <include name="manifests/semverbot/seed/manifest.xml" />
+  <include name="manifests/platform/seed/manifest.xml" />
   
   <include name="manifests/terraform_modules/manifest/manifest.xml" />
 </manifest>
