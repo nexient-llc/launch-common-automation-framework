@@ -3,9 +3,9 @@
     This manifest defines the behavior of container components
 -->
 <manifest>
-  <project name="caf-components-container" path="components/container" remote="launch-dso-platform" revision="refs/tags/0.1.0" dso_override_attribute_revision='${CONTAINER_VER}'>
+  <project name="lcaf-component-container" path="components/container" remote="launch-dso-platform" revision="refs/tags/0.1.0" dso_override_attribute_revision='${CONTAINER_VER}'>
   </project>
-  <project name="caf-component-aws-pipelines" path="components/module" remote="launch-dso-platform" revision="refs/tags/0.1.0" dso_override_attribute_revision='${PIPELINES_VER}'>
+  <project name="lcaf-component-aws-pipeline" path="components/module" remote="launch-dso-platform" revision="refs/tags/0.1.0" dso_override_attribute_revision='${PIPELINES_VER}'>
     <!-- Common -->
     <linkfile src="linkfiles/pipeline_providers/aws/aws_pipeline-to-aws_cloud/codebuild/common/scripts/spec_scripts/actions/codebuild/codebuild-status.sh" dest="components/build-actions/codebuild-status" />
     <linkfile src="linkfiles/pipeline_providers/aws/aws_pipeline-to-aws_cloud/codebuild/common/scripts/spec_scripts/actions/codebuild/pre-deploy-test.sh" dest="components/build-actions/pre-deploy-test" />
