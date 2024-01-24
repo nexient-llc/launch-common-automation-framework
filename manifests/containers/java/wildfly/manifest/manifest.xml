@@ -3,7 +3,7 @@
     This manifest defines the behavior of container components
 -->
 <manifest>
-  <project name="caf-components-container" path="components/module" remote="launch-dso-platform" revision="refs/tags/0.1.0" dso_override_attribute_revision='${CAF_COMPONENTS_VER}'>
+  <project name="lcaf-component-container" path="components/module" remote="launch-dso-platform" revision="refs/tags/0.1.0" dso_override_attribute_revision='${CAF_COMPONENTS_VER}'>
     <linkfile src="linkfiles/Makefile" dest="components/Makefile" />
     <linkfile src="linkfiles/.pre-commit-config.yaml" dest=".pre-commit-config.yaml" />
     <linkfile src="linkfiles/.golangci.yaml" dest=".golangci.yaml" />
