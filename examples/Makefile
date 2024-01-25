@@ -10,12 +10,15 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+LCAF_ENV_FILE = .lcafenv
+-include $(LCAF_ENV_FILE)
+
 # this will always point here
-CAF_MANIFESTS_URL ?= https://github.com/nexient-llc/common-automation-framework.git
+REPO_MANIFESTS_URL ?= https://github.com/nexient-llc/launch-common-automation-framework.git
 # this  will point to a git tag
-CAF_MANIFESTS_REVISION ?= refs/tags/0.1.0
+REPO_MANIFESTS_REVISION ?= refs/tags/0.1.3
 # this should point to a seed manifest
-CAF_MANIFESTS_PATH ?= manifests/terraform_modules/seed/manifest.xml
+REPO_MANIFESTS_PATH ?= manifests/terraform_modules/seed/manifest.xml
 
 # Settings to pull in Launch version of (google) repo utility that supports environment substitution:
 REPO_URL ?= https://github.com/nexient-llc/git-repo.git
@@ -75,9 +78,9 @@ endif
 .PHONY: configure
 configure: configure-git-hooks
 	repo --color=never init --no-repo-verify \
-		-u "$(CAF_MANIFESTS_URL)" \
-		-b "$(CAF_MANIFESTS_REVISION)" \
-		-m "$(CAF_MANIFESTS_PATH)"
+		-u "$(REPO_MANIFESTS_URL)" \
+		-b "$(REPO_MANIFESTS_REVISION)" \
+		-m "$(REPO_MANIFESTS_PATH)"
 	repo envsubst
 	repo sync
 
