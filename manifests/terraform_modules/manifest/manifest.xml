@@ -4,12 +4,12 @@
     all TF modules
 -->
 <manifest>
-  <project name="lcaf-component-tf-module" path="components/module" remote="launch-dso-platform" revision="refs/tags/0.1.0" dso_override_attribute_revision='${TERRAFORM_VER}'>
+  <project name="lcaf-component-tf-module" path="components/module" remote="launch-dso-platform" revision="refs/tags/0.3.0" dso_override_attribute_revision='${TERRAFORM_VER}'>
     <linkfile src="linkfiles/Makefile" dest="components/Makefile" />
     <linkfile src="linkfiles/.tflint.hcl" dest=".tflint.hcl" />
     <linkfile src="linkfiles/.pre-commit-config.yaml" dest=".pre-commit-config.yaml" />
     <linkfile src="linkfiles/.golangci.yaml" dest=".golangci.yaml" />
   </project>
-  <project name="lcaf-component-policy" path="components/policy" remote="launch-dso-platform" revision="refs/tags/0.1.0" dso_override_attribute_revision='${POLICY_VER}'>
+  <project name="lcaf-component-policy" path="components/policy" remote="launch-dso-platform" revision="refs/tags/0.2.0" dso_override_attribute_revision='${POLICY_VER}'>
   </project>
 </manifest>
