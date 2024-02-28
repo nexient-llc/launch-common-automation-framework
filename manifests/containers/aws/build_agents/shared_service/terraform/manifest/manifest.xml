@@ -3,7 +3,7 @@
     This manifest defines the behavior of container components
 -->
 <manifest>
-  <project name="lcaf-component-container" path="components/container" remote="launch-dso-platform" revision="refs/tags/0.1.0" dso_override_attribute_revision='${CONTAINER_VER}'>
+  <project name="lcaf-component-container" path="components/container" remote="launch-dso-platform" revision="refs/tags/0.2.0" dso_override_attribute_revision='${CONTAINER_VER}'>
     <linkfile src="linkfiles/Makefile.container.includes" dest="Makefile.container.includes" />
   </project>
   <project name="lcaf-component-aws-pipeline" path="components/module" remote="launch-dso-platform" revision="refs/tags/0.1.0" dso_override_attribute_revision='${PIPELINES_VER}'>

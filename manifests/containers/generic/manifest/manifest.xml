@@ -3,7 +3,7 @@
     This manifest defines the behavior of generic containerized components
 -->
 <manifest>
-  <project name="lcaf-component-container" path="components/container" remote="launch-dso-platform" revision="refs/tags/0.1.0" dso_override_attribute_revision='${CONTAINER_VER}'>
+  <project name="lcaf-component-container" path="components/container" remote="launch-dso-platform" revision="refs/tags/0.2.0" dso_override_attribute_revision='${CONTAINER_VER}'>
     <linkfile src="linkfiles/Makefile.container.includes" dest="Makefile.container.includes" />
   </project>
   <project name="git-webhook-lambda" path="components/git-webhook-lambda" remote="launch-dso-platform" revision="refs/tags/0.1.0" dso_override_attribute_revision='${WEBHOOK_VER}'>

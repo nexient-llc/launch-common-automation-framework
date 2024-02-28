@@ -4,7 +4,7 @@
     all TF modules
 -->
 <manifest>
-  <project name="lcaf-component-tf-module" path="components/module" remote="launch-dso-platform" revision="refs/tags/0.3.2" dso_override_attribute_revision='${TERRAFORM_VER}'>
+  <project name="lcaf-component-tf-module" path="components/module" remote="launch-dso-platform" revision="refs/tags/0.4.0" dso_override_attribute_revision='${TERRAFORM_VER}'>
     <linkfile src="linkfiles/Makefile" dest="components/Makefile" />
     <linkfile src="linkfiles/.tflint.hcl" dest=".tflint.hcl" />
     <linkfile src="linkfiles/.pre-commit-config.yaml" dest=".pre-commit-config.yaml" />
