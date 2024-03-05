@@ -6,6 +6,6 @@
   <project name="lcaf-component-terragrunt" path="components/terragrunt" remote="launch-dso-platform" revision="refs/tags/0.3.0" dso_override_attribute_revision='${TERRAGRUNT_VER}'>
     <linkfile src="linkfiles/.pre-commit-config.yaml" dest=".pre-commit-config.yaml" />
   </project>
-  <project name="lcaf-component-policy" path="components/policy" remote="launch-dso-platform" revision="refs/tags/0.2.1" dso_override_attribute_revision='${POLICY_VER}'>
+  <project name="lcaf-component-policy" path="components/policy" remote="launch-dso-platform" revision="refs/tags/0.2.3" dso_override_attribute_revision='${POLICY_VER}'>
   </project>
 </manifest>
